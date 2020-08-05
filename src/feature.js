@@ -1,2 +1,2 @@
-console.log("Hello Feature!")
+console.log("Hello Feature!");
 
