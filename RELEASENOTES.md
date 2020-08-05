@@ -1,3 +1,7 @@
+# Release notes for 1.0.1
+
+* Fixed a grammatical error
+
 # Release notes for 1.0.0
 
 * First supported release
