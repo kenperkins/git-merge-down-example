@@ -1,3 +1,7 @@
+# Release notes for 1.1.2
+
+* Fixing js/feature.js
+
 # Release notes for 1.1.1
 
 * Fixing a grammatical error
