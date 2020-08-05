@@ -1,3 +1,7 @@
+# Release notes for 1.2.0
+
+* Added a new feature
+
 # Release notes for 1.1.0
 
 * Added a new feature
