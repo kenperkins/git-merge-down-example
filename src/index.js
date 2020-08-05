@@ -1,2 +1,2 @@
 console.log("Hello World!")
-console.log("This is our first release")
+console.log("This is our first release.")
