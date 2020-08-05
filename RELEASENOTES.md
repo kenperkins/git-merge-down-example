@@ -1,3 +1,8 @@
+# Release notes for 2.1.0
+
+* Added feature 4
+* Fixed a typo in js/index.js
+
 # Release notes for 2.0.0
 
 * Changed src location for javascript
