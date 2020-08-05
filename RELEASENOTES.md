@@ -1,3 +1,9 @@
+# Release notes for 2.0.0
+
+* Changed src location for javascript
+* Added feature 3
+* Updated the README
+
 # Release notes for 1.2.0
 
 * Added a new feature
