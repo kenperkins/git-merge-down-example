@@ -1,3 +1,4 @@
+
 # Git-Merge-Down-Example
 
 This repo is an example of what a [merge-down strategy]([https://www.agileconnection.com/article/picking-right-branch-merge-strategy](https://www.agileconnection.com/article/picking-right-branch-merge-strategy)) looks like with strict [SemVer]([https://semver.org/](https://semver.org/)), with multiple concurrent versions and branches that reinforce that strategy.
@@ -27,3 +28,12 @@ Each Major has a few minor version branches:
 * `1.2.x`
 
 There are no branches for patch level changes as they are a point in time and as such are only represented by a tag.
+
+### Open Questions
+
+1. When do you create the release branch?
+	1. At the time of the release? This would be basically `git tag -am "Release 1.0.0` and then `git checkout -b 1.0.x` and pushing both tags and branches.
+		* This enables setting up protected branch rules in github, at the inception of the release, which is a good standard practice
+	3. At the time of taking a new change for the next release from said branch? I.e. `1.0.1` in the above example.
+		* This would be `git checkout 1.0.0` and then `git checkout -b 1.0.x` and pushing the branch.
+		* If you don't create the release branch at the time of the initial release, you'll have to audit every commit that goes to master and whether it's a breaking change or not, and before it merges create the branch, or retroactively checkout the tag and create a branch from that.
