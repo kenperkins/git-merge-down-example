@@ -1,3 +1,8 @@
+# Release notes for 1.0.0
+
+* First supported release
+* Adds some stuff
+
 # Release notes for 0.0.3
 
 * Adding src/index.js
